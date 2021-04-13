@@ -12,8 +12,9 @@
 ;                   Configuration by Theory_of_Everything
 
 [colors]
-background = #151515
-foreground = #d0d0d0
+bg0 = #151515
+bg1 = #262626
+fg = #d0d0d0
 black = #151515
 red = #f56991
 green = #aaf2aa
@@ -25,7 +26,7 @@ white = #d0d0d0
 
 ;============================================================================
 [bar/top]
-background = ${colors.background}
+background = #151515 
 modules-left = bspwm
 modules-center = cpu 
 modules-right = date battery
@@ -74,9 +75,11 @@ ramp-coreload-spacing = 0.75
 ramp-coreload-0 = ▁
 ramp-coreload-1 = ▂
 ramp-coreload-2 = ▃
+
 ramp-coreload-3 = ▄
 ramp-coreload-4 = ▅
 ramp-coreload-5 = ▆
+
 ramp-coreload-6 = ▇
 ramp-coreload-7 = █
 ;============================================================================
@@ -96,8 +99,8 @@ format-spacing = 1
 format-charging = <animation-charging> <label-charging>
 format-discharging = <animation-discharging> <label-discharging>
 
-format-animation-charging-foreground = ${colors.green} 
-format-animation-discharging-foreground = ${colors.red}
+;format-animation-charging-foreground = ${colors.green}   #  Currently a work in progress
+;format-animation-discharging-foreground = ${colors.red}  #
 
 animation-charging-0 = 
 animation-charging-1 = 
@@ -120,10 +123,10 @@ enable-scroll = false
 reverse-scroll = false
 fuzzy-match = true
 
-format = <label-state> <label-mode>
+format-spacing = 1
+format = <label-state>
 
 label-focused-foreground = #aaf2aa
-
 ;============================================================================
 [module/pwrctl]
 type = custom/menu
