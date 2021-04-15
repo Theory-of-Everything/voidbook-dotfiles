@@ -1,0 +1,16 @@
+# New (actaully good) Config
+max-items        100
+browser          "firefox --new-tab %u"
+
+unbind-key       R
+bind-key         ^R    reload-all
+
+
+# Color Config
+color background          white   black
+color listnormal          white   black
+color listfocus           green   black
+color listnormal_unread   white   black   bold
+color listfocus_unread    green   black   bold
+color info                red     black   
+color article             blue    black
