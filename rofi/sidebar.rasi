@@ -3,7 +3,7 @@
  * Copyright: Dave Davenport
  */
 * {
-    text-color:  #5ac3ef;
+    text-color:  #d0d0d0;
     background-color:  rgba(0,0,0,0);
     dark: #1c1c1c;
     // Black

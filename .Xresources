@@ -2,10 +2,8 @@
 urxvt.scrollBar: false
 urxvt.font: xft:Inconsolata:pixelsize=16
 !urxvt.font: xft:awesome:pixelsize=16
-urxvt.transparent: false
 
-
-Xft*dpi: 109 
+Xft*dpi: 109
 
 !-------------------------Colors Config
 ! special
@@ -82,4 +80,3 @@ Xft*dpi: 109
 ! white
 !*.color7:       #707880
 !*.color15:      #c5c8c6
-
