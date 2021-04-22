@@ -4,20 +4,32 @@
 
 # terminal emulator
 super + Return
-	urxvt
+	urxvt -depth 32 -bg rgba:1515/1515/1515/cccc
+
+# floating terminal emulator
+ctrl + super + Return
+	urxvt -name float_urxvt -depth 32 -bg rgba:/1515/1515/1515/cccc
 
 # program launcher
 super + q
 	rofi -show run
 
+# file manager
+super + e
+	thunar
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
 
-# launch scratchpad (F12)
-super + v
-	id=$(cat /tmp/scratchid);\
-	bspc node $id --flag hidden;bspc node -f $id
+# launch selection screenshot tool
+shift + super + s
+	$HOME/.config/sxhkd/scripts/scrnclip.sh
+
+# take a fullscreen screenshot
+Print
+	$HOME/.config/sxhkd/scripts/scrnshot.sh
+
 #
 # bspwm hotkeys
 #
@@ -60,14 +72,14 @@ super + ctrl + {m,x,y,z}
 
 # focus the node in the given direction
 super + {_,shift + }{h,j,k,l}
-	bspc node -{f,s} {west,south,north,east}
+	bspc node -{f,s} {west,north,south,east}
 
 # focus the node for the given path jump
 super + {p,b,comma,period}
 	bspc node -f @{parent,brother,first,second}
 
 # focus the next/previous window in the current desktop
-super + {_,shift + }c
+super + {_,shift + }@space
 	bspc node -f {next,prev}.local.!hidden.window
 
 # focus the next/previous desktop in the current monitor
@@ -114,7 +126,7 @@ super + ctrl + shift + space
 
 # expand a window by moving one of its side outward
 super + alt + {h,j,k,l}
-	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+	bspc node -z {left -20 0,top 0 -20,bottom 0 20,right 20 0}
 
 # contract a window by moving one of its side inward
 super + alt + shift + {h,j,k,l}
