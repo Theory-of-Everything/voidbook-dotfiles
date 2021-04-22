@@ -15,6 +15,8 @@ Feel free to open any issues if you see something off or incorrect.
 
 ![Terminal Apps](/images/desktop_termapps.png)
 
+![Atom Editor](/images/desktop_atom.png)
+
 ### Rice Specs:
 - Distro: `Void Linux`
 - WM: `bspwm`
@@ -25,6 +27,7 @@ Feel free to open any issues if you see something off or incorrect.
 - Editor: `neovim & atom editor`
 - Status bar: `polybar`
 - Screenshot Tool: `maim`
+- Notification Client: `Dunst`
 - File Manger: `Thunar`
 - Feed Reader: `newsboat`
 - Music Player: `musikcube`
