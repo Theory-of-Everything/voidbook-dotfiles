@@ -20,20 +20,28 @@ Feel free to open any issues if you see something off or incorrect.
 ![Pico8 Showcase](/images/desktop_pico8.png)
 
 ### Rice Specs:
+#### Interface:
 - Distro: `Void Linux`
 - WM: `bspwm`
 - DM: `lighdm`
-- Compositor `yshui/picom`
+- Status Bar: `polybar`
+- Compositor: `yshui/picom`
+- Wallpaper Manager: `nitrogen`
 - Launcher: `rofi`
-- Terminal: `rxvt-unicode`
-- Editor: `neovim & atom editor`
-- Status bar: `polybar`
-- Screenshot Tool: `maim`
 - Notification Client: `Dunst`
+
+#### Term/Editor
+- Terminal: `rxvt-unicode`
+- Term Editor: `neovim`
+- IDE/Text Editor: `Atom Editor`
+
+#### Other Stuff:
+
 - File Manger: `Thunar`
-- Feed Reader: `newsboat`
 - Music Player: `musikcube`
 - Fonts/Icons: `Inconsolata, Fira, Nerd Fonts`
+- Feed Reader: `newsboat`
+- Screenshot Tool: `maim`
 - gtk Theme: `adwaita-dark`
 - term theme: `custom`
 
