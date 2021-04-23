@@ -17,6 +17,8 @@ Feel free to open any issues if you see something off or incorrect.
 
 ![Atom Editor](/images/desktop_atom.png)
 
+![Pico8 Showcase](/images/desktop_pico8.png)
+
 ### Rice Specs:
 - Distro: `Void Linux`
 - WM: `bspwm`
@@ -38,3 +40,4 @@ Feel free to open any issues if you see something off or incorrect.
 
 ~(Screenshots and more cool things to come eventually)~<br>
 Finally here yay!
+(along with pico-8 being cool)
