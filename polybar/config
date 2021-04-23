@@ -33,9 +33,9 @@ modules-right = network date battery
 module-margin = 1
 padding = 2
 seprator = /
-font-0 = Inconsolata
-font-1 = FontAwesome:style=Regular
-font-2 = Inconsolata Nerd Font Mono:style=Bold
+font-0 = "Inconsolata:size=11;0"
+font-1 = "FontAwesome:style=Regular:size=11;0"
+font-2 = "Inconsolata Nerd Font Mono:style=Bold:size=11;0"
 
 ;============================================================================
 ;Date Module
@@ -92,7 +92,7 @@ type = internal/battery
 battery = BAT0
 adapter = AC0
 poll-interval = 1
-full-at = 99
+full-at = 100
 
 label-charging = %percentage%%
 label-discharging = %percentage%%
@@ -149,10 +149,16 @@ enable-scroll = false
 reverse-scroll = false
 fuzzy-match = true
 
-format-spacing = 1
+format-spacing = 0
+format-padding = 1
+label-focused-foreground = #aaf2aa
 format = <label-state>
 
-label-focused-foreground = #aaf2aa
+# label-focused = " %name% "
+# label-occupied-padding = 1
+# label-empty-padding = 1
+# label-focused-background = #2d2d2d
+# label-focused-padding = 1
 ;============================================================================
 [module/pwrctl]
 type = custom/menu

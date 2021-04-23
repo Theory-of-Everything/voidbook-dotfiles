@@ -4,11 +4,11 @@
 
 # terminal emulator
 super + Return
-	urxvt -depth 32 -bg rgba:1515/1515/1515/cccc
+	urxvt 
 
 # floating terminal emulator
 ctrl + super + Return
-	urxvt -name float_urxvt -depth 32 -bg rgba:/1515/1515/1515/cccc
+	urxvt -name float_urxvt
 
 # program launcher
 super + q
@@ -29,7 +29,15 @@ shift + super + s
 # take a fullscreen screenshot
 Print
 	$HOME/.config/sxhkd/scripts/scrnshot.sh
+# Volume Control
+XF86AudioRaiseVolume
+	pactl set-sink-volume @DEFAULT_SINK@ +5%
 
+XF86AudioLowerVolume
+	pactl set-sink-volume @DEFAULT_SINK@ -5%
+
+XF86AudioMute
+	pactl set-sink-mute @DEFAULT_SINK@ toggle
 #
 # bspwm hotkeys
 #
