@@ -4,20 +4,22 @@
 nitrogen --restore &
 thunar --daemon &
 picom --config ~/.config/picom/picom.conf &
+spoifyd &
+# udiskie &
+
 $HOME/.config/dunst/launch.sh
 $HOME/.config/polybar/launch.sh
 
-xbacklight -set 50
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 # Default '1' '2' '3' '4' '5' '6' '7' '8' '9' '10'
-bspc monitor -d '1' '2' '3' '4' '5' '6' '7' '8' '9' '10'
+bspc monitor -d 'Wksp 1' 'Wksp 2' 'Wksp 3' 'Wksp 4' 'Wksp 5' 'Wksp 6' 'Wksp 7' 'Wksp 8' 'Wksp 9' 'Wksp 10'
 
 bspc config border_width         2
 bspc config window_gap          12
 
-bspc config split_ratio          0.52
+bspc config split_ratio          0.50
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
