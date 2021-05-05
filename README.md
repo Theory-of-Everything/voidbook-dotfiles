@@ -1,5 +1,6 @@
 
 # VoidBook dotfiles
+## (dont skip if you want to "attempt" to use these dots)
 
 This repository has 2 locations [Gitlab](https://gitlab.com/Theory_of_Everything/voidbook-dotfiles) and [Github](https://github.com/Theory-of-Everything/voidbook-dotfiles)
 I don't really check one or the other more frequently, so choose what you like.
@@ -11,13 +12,13 @@ This is a heavy work in progress, as I am not the most proficeint linux user.
 Feel free to open any issues if you see something off or incorrect.
 
 ### Images:
-![Blank Destop](/images/desktop_empty.png)
+![Blank Destop](/images/rev2/desktop_empty.png)
 
-![Terminal Apps](/images/desktop_termapps.png)
+![Terminal Apps](/images/rev2/desktop_termapps.png)
 
-![Atom Editor](/images/desktop_atom.png)
+![Vscode](/images/rev2/desktop_editor.png)
 
-![Pico8 Showcase](/images/desktop_pico8.png)
+![Pico8 Showcase](/images/rev2/desktop_pico8.png)
 
 ### Rice Specs:
 #### Interface:
@@ -32,14 +33,14 @@ Feel free to open any issues if you see something off or incorrect.
 
 #### Term/Editor
 - Terminal: `rxvt-unicode`
-- Term Editor: `neovim`
-- IDE/Text Editor: `Atom Editor`
+- Term Editor: `neovim-nightly`
+- IDE/Text Editor: `vscode - oss`
 
 #### Other Stuff:
 
 - File Manger: `Thunar`
 - Music Player: `musikcube`
-- Fonts/Icons: `Inconsolata, Fira, Nerd Fonts`
+- Fonts/Icons: `agave Nerd Font`
 - Feed Reader: `newsboat`
 - Screenshot Tool: `maim`
 - gtk Theme: `adwaita-dark`
