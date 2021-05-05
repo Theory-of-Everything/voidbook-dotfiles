@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	urxvt 
+	urxvt
 
 # floating terminal emulator
 ctrl + super + Return
@@ -14,9 +14,25 @@ ctrl + super + Return
 super + q
 	rofi -show run
 
+# Config Editor
+super + c
+	$HOME/.config/sxhkd/scripts/configs.sh
+
+# SSH Directory
+super + KP_Enter
+	$HOME/.config/sxhkd/scripts/ssh_hosts.sh
+
 # file manager
 super + e
 	thunar
+
+# Drop down urxvt
+F12
+	tdrop -a -w 98% -h 40% -y 35 -x 12 urxvt -title "urxvt-dropdown"
+
+# Htop Dropdown
+F11
+	tdrop -a -w 98% -h 60% -y 35 -x 12 urxvt -e htop
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -29,6 +45,8 @@ shift + super + s
 # take a fullscreen screenshot
 Print
 	$HOME/.config/sxhkd/scripts/scrnshot.sh
+
+
 # Volume Control
 XF86AudioRaiseVolume
 	pactl set-sink-volume @DEFAULT_SINK@ +5%
@@ -38,6 +56,8 @@ XF86AudioLowerVolume
 
 XF86AudioMute
 	pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+
 #
 # bspwm hotkeys
 #
