@@ -1,0 +1,71 @@
+User belongs to experiment group 'pythonDiscoveryModuleWithoutWatcher'
+Info 2021-05-04 10:14:29: ZMQ install verified.
+Info 2021-05-04 10:14:29: id is a4099f25-e9dc-4388-910a-ddfdf465066e
+Error 2021-05-04 10:14:29: extension activation failed [Error: [ms-toolsai.jupyter]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77471)
+	at _ (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77418)
+	at Object.onDidChangeCellExecutionState (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:40468)
+	at new d (/home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:49:767369)
+	at Object.t.resolveInstance (/home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:239967)
+	at /home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:239172
+	at Array.map (<anonymous>)
+	at Object.t.resolveInstance (/home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:239737)
+	at /home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:239172
+	at Array.map (<anonymous>)
+	at Object.t.resolveInstance (/home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:239737)
+	at /home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:239172
+	at /home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:238120
+	at Array.map (<anonymous>)
+	at /home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:238092
+	at Array.map (<anonymous>)
+	at Object.t.resolveInstance (/home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:239737)
+	at /home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:239172
+	at Object.t.resolve (/home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:239435)
+	at /home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:230532
+	at e._get (/home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:230298)
+	at e.get (/home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:229010)
+	at a.get (/home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:49:818133)
+	at /home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:273220
+	at processTicksAndRejections (internal/process/task_queues.js:97:5)
+	at async /home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:32:772805
+	at async t.activate (/home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:32:772492)]
+Error 2021-05-04 10:14:29: Failed to active the Jupyter Extension [Error: [ms-toolsai.jupyter]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77471)
+	at _ (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77418)
+	at Object.onDidChangeCellExecutionState (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:40468)
+	at new d (/home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:49:767369)
+	at Object.t.resolveInstance (/home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:239967)
+	at /home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:239172
+	at Array.map (<anonymous>)
+	at Object.t.resolveInstance (/home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:239737)
+	at /home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:239172
+	at Array.map (<anonymous>)
+	at Object.t.resolveInstance (/home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:239737)
+	at /home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:239172
+	at /home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:238120
+	at Array.map (<anonymous>)
+	at /home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:238092
+	at Array.map (<anonymous>)
+	at Object.t.resolveInstance (/home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:239737)
+	at /home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:239172
+	at Object.t.resolve (/home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:239435)
+	at /home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:230532
+	at e._get (/home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:230298)
+	at e.get (/home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:229010)
+	at a.get (/home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:49:818133)
+	at /home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:47:273220
+	at processTicksAndRejections (internal/process/task_queues.js:97:5)
+	at async /home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:32:772805
+	at async t.activate (/home/theorytoe/.vscode-oss/extensions/ms-toolsai.jupyter-2021.5.745244803/out/client/extension.js:32:772492)]
+Info 2021-05-04 10:14:30: Found existing keyfile at /home/theorytoe/.config/Code - OSS/User/globalStorage/ms-toolsai.jupyter/nbsecret
+Info 2021-05-04 12:38:49: Shutting down notebooks for fbacd135-9d15-4434-9b9f-85956e6dae63
+Info 2021-05-04 12:38:49: Disposing HostJupyterExecution 871da54e-2e0e-4c65-8888-0e6f9e857613
+Info 2021-05-04 12:38:49: Disposing super HostJupyterExecution 871da54e-2e0e-4c65-8888-0e6f9e857613
+Info 2021-05-04 12:38:49: Disposing HostJupyterExecution 871da54e-2e0e-4c65-8888-0e6f9e857613
+Info 2021-05-04 12:38:49: Finished disposing HostJupyterExecution  871da54e-2e0e-4c65-8888-0e6f9e857613
+Info 2021-05-04 12:38:49: Disposing HostJupyterExecution 871da54e-2e0e-4c65-8888-0e6f9e857613
+Info 2021-05-04 12:38:49: Finished disposing HostJupyterExecution  871da54e-2e0e-4c65-8888-0e6f9e857613
+Info 2021-05-04 12:38:49: Getting live share API during dispose HostJupyterExecution 871da54e-2e0e-4c65-8888-0e6f9e857613
+Info 2021-05-04 12:38:49: Detaching HostJupyterExecution 871da54e-2e0e-4c65-8888-0e6f9e857613
+Info 2021-05-04 12:38:49: Cleaning up server cache 871da54e-2e0e-4c65-8888-0e6f9e857613
+Info 2021-05-04 12:38:49: Finished disposing HostJupyterExecution  871da54e-2e0e-4c65-8888-0e6f9e857613

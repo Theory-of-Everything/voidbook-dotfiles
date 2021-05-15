@@ -1,0 +1,191 @@
+Looking for git in: git
+Using git 2.31.1 from git
+> git rev-parse --git-dir
+Open repository: /home/theorytoe/dotfiles
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :dotutil.bash
+> git ls-files --stage -- /home/theorytoe/dotfiles/dotutil.bash
+> git check-ignore -v -z --stdin
+> git config --local branch.master.github-pr-owner-number
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :htop/htoprc
+> git ls-files --stage -- /home/theorytoe/dotfiles/htop/htoprc
+> git cat-file -s 6ccc5e8a0a8b8febfaf40195b9d031b2261431c8
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :newsboat/siduck76_starred_noriah_catnip.txt
+> git ls-files --stage -- /home/theorytoe/dotfiles/newsboat/siduck76_starred_noriah_catnip.txt
+> git show --textconv :newsboat/siduck76_starred_wfxr_minimapvim.txt
+> git ls-files --stage -- /home/theorytoe/dotfiles/newsboat/siduck76_starred_wfxr_minimapvim.txt
+> git show --textconv :.gitignore
+> git ls-files --stage -- /home/theorytoe/dotfiles/.gitignore
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :polybar/config
+> git ls-files --stage -- /home/theorytoe/dotfiles/polybar/config
+> git cat-file -s 025e8ce9754518a2dfa3091b61d30fe1bbcabda6
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :.gitignore
+> git ls-files --stage -- /home/theorytoe/dotfiles/.gitignore
+> git show --textconv :dotutil.bash
+> git ls-files --stage -- /home/theorytoe/dotfiles/dotutil.bash
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :.gitignore
+> git ls-files --stage -- /home/theorytoe/dotfiles/.gitignore
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :nvim/init.vim
+> git ls-files --stage -- /home/theorytoe/dotfiles/nvim/init.vim
+> git cat-file -s df18793841267894333bb89300bb0ec9d254dd03
+> git show --textconv :nvim/.netrwhist
+> git ls-files --stage -- /home/theorytoe/dotfiles/nvim/.netrwhist
+> git cat-file -s 13ce1b9695f11c82ba4addf274bd548a7acf0f26
+> git check-ignore -v -z --stdin
+> git show --textconv :.gitignore
+> git ls-files --stage -- /home/theorytoe/dotfiles/.gitignore
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :nvim/.netrwhist
+> git ls-files --stage -- /home/theorytoe/dotfiles/nvim/.netrwhist
+> git cat-file -s 13ce1b9695f11c82ba4addf274bd548a7acf0f26
+> git check-ignore -v -z --stdin
+> git show --textconv :.gitignore
+> git ls-files --stage -- /home/theorytoe/dotfiles/.gitignore
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :rofi/Arc-Dark.rasi
+> git ls-files --stage -- /home/theorytoe/dotfiles/rofi/Arc-Dark.rasi
+> git show --textconv :rofi/config.rasi
+> git ls-files --stage -- /home/theorytoe/dotfiles/rofi/config.rasi
+> git cat-file -s 5b00b42ea58feaa7f3d2f6f669d2761e1d82c991
+> git show --textconv :rofi/arthur.rasi
+> git ls-files --stage -- /home/theorytoe/dotfiles/rofi/arthur.rasi
+> git show --textconv :rofi/config.rasi
+> git ls-files --stage -- /home/theorytoe/dotfiles/rofi/config.rasi
+> git cat-file -s 5b00b42ea58feaa7f3d2f6f669d2761e1d82c991
+> git show --textconv :rofi/rofi.rasi
+> git ls-files --stage -- /home/theorytoe/dotfiles/rofi/rofi.rasi
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :rofi/sidebar.rasi
+> git ls-files --stage -- /home/theorytoe/dotfiles/rofi/sidebar.rasi
+> git cat-file -s e38e250dc866604abe5ff275d62fd895ef57ef51
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :bspwm/bspwmrc
+> git ls-files --stage -- /home/theorytoe/dotfiles/bspwm/bspwmrc
+> git cat-file -s 5931459e1efcb7a4f17de802fe56cc6b0f8a155d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-files --stage -- /home/theorytoe/dotfiles/bspwm/bspwmrc
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git cat-file -s 3c98f77ab1ca6597903f9edd640b8aa50152e501
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show --textconv :bspwm/bspwmrc
+> git config --get commit.template
+> git config --local branch.master.github-pr-owner-number
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :htop/htoprc
+> git ls-files --stage -- /home/theorytoe/dotfiles/htop/htoprc
+> git cat-file -s 6ccc5e8a0a8b8febfaf40195b9d031b2261431c8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-files --stage -- /home/theorytoe/dotfiles/htop/htoprc
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git cat-file -s f9ed4beeacbb51f25c78dbba587ef8a6df9c8c85
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :htop/htoprc
+> git config --local branch.master.github-pr-owner-number
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git ls-files --stage -- /home/theorytoe/dotfiles/htop/htoprc
+> git cat-file -s f9ed4beeacbb51f25c78dbba587ef8a6df9c8c85
+> git config --get commit.template
+> git show --textconv :htop/htoprc
+> git config --local branch.master.github-pr-owner-number
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

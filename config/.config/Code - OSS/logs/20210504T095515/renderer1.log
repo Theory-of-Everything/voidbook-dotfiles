@@ -1,0 +1,722 @@
+[2021-05-04 09:55:35.138] [renderer1] [warning] UNRESPONSIVE extension host, 'KnisterPeter.vscode-github' took 96% of 301.143ms, saved PROFILE here: 'file:///tmp/exthost-fd1bcc.cpuprofile' [{"id":"KnisterPeter.vscode-github","total":287730,"percentage":96},{"id":"program","total":2027,"percentage":1},{"id":"self","total":11212,"percentage":4}]
+[2021-05-04 09:58:15.209] [renderer1] [error] [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github: Error: [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77471)
+	at _ (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77418)
+	at Object.getTokenInformationAtPosition (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:27453)
+	at Zs (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4755)
+	at du (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4901)
+	at ag.provideHover (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:1008:51286)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159870
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12046
+	at new Promise (<anonymous>)
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12018)
+	at l.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159850)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182545
+	at Ie._withAdapter (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:179343)
+	at Ie.$provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182521)
+	at u._doInvokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+	at u._invokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+	at u._receiveRequest (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11094)
+	at u._receiveOneMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:30083
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at t._receiveMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+	at Socket.w (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+	at Socket.emit (events.js:310:20)
+	at addChunk (_stream_readable.js:286:12)
+	at readableAddChunk (_stream_readable.js:268:9)
+	at Socket.Readable.push (_stream_readable.js:209:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-04 09:58:15.210] [renderer1] [error] [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github: Error: [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77471)
+	at _ (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77418)
+	at Object.getTokenInformationAtPosition (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:27453)
+	at Zs (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4755)
+	at du (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4901)
+	at Kf.provideHover (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:1008:36964)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159870
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12046
+	at new Promise (<anonymous>)
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12018)
+	at l.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159850)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182545
+	at Ie._withAdapter (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:179343)
+	at Ie.$provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182521)
+	at u._doInvokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+	at u._invokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+	at u._receiveRequest (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11094)
+	at u._receiveOneMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:30083
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at t._receiveMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+	at Socket.w (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+	at Socket.emit (events.js:310:20)
+	at addChunk (_stream_readable.js:286:12)
+	at readableAddChunk (_stream_readable.js:268:9)
+	at Socket.Readable.push (_stream_readable.js:209:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-04 10:00:45.559] [renderer1] [error] [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github: Error: [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77471)
+	at _ (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77418)
+	at Object.getTokenInformationAtPosition (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:27453)
+	at Zs (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4755)
+	at du (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4901)
+	at ag.provideHover (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:1008:51286)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159870
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12046
+	at new Promise (<anonymous>)
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12018)
+	at l.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159850)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182545
+	at Ie._withAdapter (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:179343)
+	at Ie.$provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182521)
+	at u._doInvokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+	at u._invokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+	at u._receiveRequest (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11094)
+	at u._receiveOneMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:30083
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at t._receiveMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+	at Socket.w (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+	at Socket.emit (events.js:310:20)
+	at addChunk (_stream_readable.js:286:12)
+	at readableAddChunk (_stream_readable.js:268:9)
+	at Socket.Readable.push (_stream_readable.js:209:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-04 10:00:45.561] [renderer1] [error] [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github: Error: [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77471)
+	at _ (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77418)
+	at Object.getTokenInformationAtPosition (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:27453)
+	at Zs (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4755)
+	at du (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4901)
+	at Kf.provideHover (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:1008:36964)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159870
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12046
+	at new Promise (<anonymous>)
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12018)
+	at l.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159850)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182545
+	at Ie._withAdapter (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:179343)
+	at Ie.$provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182521)
+	at u._doInvokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+	at u._invokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+	at u._receiveRequest (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11094)
+	at u._receiveOneMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:30083
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at t._receiveMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+	at Socket.w (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+	at Socket.emit (events.js:310:20)
+	at addChunk (_stream_readable.js:286:12)
+	at readableAddChunk (_stream_readable.js:268:9)
+	at Socket.Readable.push (_stream_readable.js:209:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-04 10:00:47.122] [renderer1] [error] [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github: Error: [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77471)
+	at _ (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77418)
+	at Object.getTokenInformationAtPosition (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:27453)
+	at Zs (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4755)
+	at du (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4901)
+	at ag.provideHover (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:1008:51286)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159870
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12046
+	at new Promise (<anonymous>)
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12018)
+	at l.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159850)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182545
+	at Ie._withAdapter (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:179343)
+	at Ie.$provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182521)
+	at u._doInvokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+	at u._invokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+	at u._receiveRequest (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11094)
+	at u._receiveOneMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:30083
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at t._receiveMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+	at Socket.w (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+	at Socket.emit (events.js:310:20)
+	at addChunk (_stream_readable.js:286:12)
+	at readableAddChunk (_stream_readable.js:268:9)
+	at Socket.Readable.push (_stream_readable.js:209:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-04 10:00:47.124] [renderer1] [error] [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github: Error: [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77471)
+	at _ (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77418)
+	at Object.getTokenInformationAtPosition (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:27453)
+	at Zs (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4755)
+	at du (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4901)
+	at Kf.provideHover (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:1008:36964)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159870
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12046
+	at new Promise (<anonymous>)
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12018)
+	at l.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159850)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182545
+	at Ie._withAdapter (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:179343)
+	at Ie.$provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182521)
+	at u._doInvokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+	at u._invokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+	at u._receiveRequest (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11094)
+	at u._receiveOneMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:30083
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at t._receiveMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+	at Socket.w (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+	at Socket.emit (events.js:310:20)
+	at addChunk (_stream_readable.js:286:12)
+	at readableAddChunk (_stream_readable.js:268:9)
+	at Socket.Readable.push (_stream_readable.js:209:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-04 10:02:12.557] [renderer1] [error] [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github: Error: [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77471)
+	at _ (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77418)
+	at Object.getTokenInformationAtPosition (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:27453)
+	at Zs (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4755)
+	at du (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4901)
+	at ag.provideHover (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:1008:51286)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159870
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12046
+	at new Promise (<anonymous>)
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12018)
+	at l.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159850)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182545
+	at Ie._withAdapter (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:179343)
+	at Ie.$provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182521)
+	at u._doInvokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+	at u._invokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+	at u._receiveRequest (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11094)
+	at u._receiveOneMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:30083
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at t._receiveMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+	at Socket.w (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+	at Socket.emit (events.js:310:20)
+	at addChunk (_stream_readable.js:286:12)
+	at readableAddChunk (_stream_readable.js:268:9)
+	at Socket.Readable.push (_stream_readable.js:209:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-04 10:02:12.559] [renderer1] [error] [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github: Error: [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77471)
+	at _ (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77418)
+	at Object.getTokenInformationAtPosition (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:27453)
+	at Zs (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4755)
+	at du (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4901)
+	at Kf.provideHover (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:1008:36964)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159870
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12046
+	at new Promise (<anonymous>)
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12018)
+	at l.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159850)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182545
+	at Ie._withAdapter (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:179343)
+	at Ie.$provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182521)
+	at u._doInvokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+	at u._invokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+	at u._receiveRequest (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11094)
+	at u._receiveOneMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:30083
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at t._receiveMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+	at Socket.w (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+	at Socket.emit (events.js:310:20)
+	at addChunk (_stream_readable.js:286:12)
+	at readableAddChunk (_stream_readable.js:268:9)
+	at Socket.Readable.push (_stream_readable.js:209:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-04 10:02:37.134] [renderer1] [error] [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github: Error: [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77471)
+	at _ (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77418)
+	at Object.getTokenInformationAtPosition (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:27453)
+	at Zs (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4755)
+	at du (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4901)
+	at ag.provideHover (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:1008:51286)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159870
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12046
+	at new Promise (<anonymous>)
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12018)
+	at l.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159850)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182545
+	at Ie._withAdapter (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:179343)
+	at Ie.$provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182521)
+	at u._doInvokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+	at u._invokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+	at u._receiveRequest (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11094)
+	at u._receiveOneMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:30083
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at t._receiveMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+	at Socket.w (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+	at Socket.emit (events.js:310:20)
+	at addChunk (_stream_readable.js:286:12)
+	at readableAddChunk (_stream_readable.js:268:9)
+	at Socket.Readable.push (_stream_readable.js:209:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-04 10:02:37.136] [renderer1] [error] [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github: Error: [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77471)
+	at _ (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77418)
+	at Object.getTokenInformationAtPosition (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:27453)
+	at Zs (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4755)
+	at du (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4901)
+	at Kf.provideHover (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:1008:36964)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159870
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12046
+	at new Promise (<anonymous>)
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12018)
+	at l.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159850)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182545
+	at Ie._withAdapter (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:179343)
+	at Ie.$provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182521)
+	at u._doInvokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+	at u._invokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+	at u._receiveRequest (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11094)
+	at u._receiveOneMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:30083
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at t._receiveMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+	at Socket.w (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+	at Socket.emit (events.js:310:20)
+	at addChunk (_stream_readable.js:286:12)
+	at readableAddChunk (_stream_readable.js:268:9)
+	at Socket.Readable.push (_stream_readable.js:209:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-04 10:02:37.434] [renderer1] [error] [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github: Error: [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77471)
+	at _ (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77418)
+	at Object.getTokenInformationAtPosition (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:27453)
+	at Zs (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4755)
+	at du (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4901)
+	at ag.provideHover (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:1008:51286)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159870
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12046
+	at new Promise (<anonymous>)
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12018)
+	at l.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159850)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182545
+	at Ie._withAdapter (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:179343)
+	at Ie.$provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182521)
+	at u._doInvokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+	at u._invokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+	at u._receiveRequest (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11094)
+	at u._receiveOneMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:30083
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at t._receiveMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+	at Socket.w (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+	at Socket.emit (events.js:310:20)
+	at addChunk (_stream_readable.js:286:12)
+	at readableAddChunk (_stream_readable.js:268:9)
+	at Socket.Readable.push (_stream_readable.js:209:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-04 10:02:37.437] [renderer1] [error] [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github: Error: [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77471)
+	at _ (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77418)
+	at Object.getTokenInformationAtPosition (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:27453)
+	at Zs (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4755)
+	at du (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4901)
+	at Kf.provideHover (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:1008:36964)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159870
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12046
+	at new Promise (<anonymous>)
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12018)
+	at l.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159850)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182545
+	at Ie._withAdapter (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:179343)
+	at Ie.$provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182521)
+	at u._doInvokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+	at u._invokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+	at u._receiveRequest (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11094)
+	at u._receiveOneMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:30083
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at t._receiveMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+	at Socket.w (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+	at Socket.emit (events.js:310:20)
+	at addChunk (_stream_readable.js:286:12)
+	at readableAddChunk (_stream_readable.js:268:9)
+	at Socket.Readable.push (_stream_readable.js:209:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-04 10:02:46.971] [renderer1] [error] [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github: Error: [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77471)
+	at _ (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77418)
+	at Object.getTokenInformationAtPosition (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:27453)
+	at Zs (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4755)
+	at du (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4901)
+	at ag.provideHover (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:1008:51286)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159870
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12046
+	at new Promise (<anonymous>)
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12018)
+	at l.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159850)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182545
+	at Ie._withAdapter (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:179343)
+	at Ie.$provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182521)
+	at u._doInvokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+	at u._invokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+	at u._receiveRequest (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11094)
+	at u._receiveOneMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:30083
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at t._receiveMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+	at Socket.w (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+	at Socket.emit (events.js:310:20)
+	at addChunk (_stream_readable.js:286:12)
+	at readableAddChunk (_stream_readable.js:268:9)
+	at Socket.Readable.push (_stream_readable.js:209:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-04 10:02:46.973] [renderer1] [error] [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github: Error: [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77471)
+	at _ (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77418)
+	at Object.getTokenInformationAtPosition (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:27453)
+	at Zs (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4755)
+	at du (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4901)
+	at Kf.provideHover (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:1008:36964)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159870
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12046
+	at new Promise (<anonymous>)
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12018)
+	at l.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159850)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182545
+	at Ie._withAdapter (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:179343)
+	at Ie.$provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182521)
+	at u._doInvokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+	at u._invokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+	at u._receiveRequest (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11094)
+	at u._receiveOneMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:30083
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at t._receiveMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+	at Socket.w (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+	at Socket.emit (events.js:310:20)
+	at addChunk (_stream_readable.js:286:12)
+	at readableAddChunk (_stream_readable.js:268:9)
+	at Socket.Readable.push (_stream_readable.js:209:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-04 10:03:04.345] [renderer1] [error] [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github: Error: [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77471)
+	at _ (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77418)
+	at Object.getTokenInformationAtPosition (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:27453)
+	at Zs (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4755)
+	at du (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4901)
+	at ag.provideHover (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:1008:51286)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159870
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12046
+	at new Promise (<anonymous>)
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12018)
+	at l.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159850)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182545
+	at Ie._withAdapter (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:179343)
+	at Ie.$provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182521)
+	at u._doInvokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+	at u._invokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+	at u._receiveRequest (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11094)
+	at u._receiveOneMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:30083
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at t._receiveMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+	at Socket.w (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+	at Socket.emit (events.js:310:20)
+	at addChunk (_stream_readable.js:286:12)
+	at readableAddChunk (_stream_readable.js:268:9)
+	at Socket.Readable.push (_stream_readable.js:209:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-04 10:03:04.346] [renderer1] [error] [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github: Error: [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77471)
+	at _ (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77418)
+	at Object.getTokenInformationAtPosition (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:27453)
+	at Zs (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4755)
+	at du (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4901)
+	at Kf.provideHover (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:1008:36964)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159870
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12046
+	at new Promise (<anonymous>)
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12018)
+	at l.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159850)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182545
+	at Ie._withAdapter (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:179343)
+	at Ie.$provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182521)
+	at u._doInvokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+	at u._invokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+	at u._receiveRequest (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11094)
+	at u._receiveOneMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:30083
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at t._receiveMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+	at Socket.w (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+	at Socket.emit (events.js:310:20)
+	at addChunk (_stream_readable.js:286:12)
+	at readableAddChunk (_stream_readable.js:268:9)
+	at Socket.Readable.push (_stream_readable.js:209:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-04 10:03:05.711] [renderer1] [error] [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github: Error: [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77471)
+	at _ (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77418)
+	at Object.getTokenInformationAtPosition (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:27453)
+	at Zs (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4755)
+	at du (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4901)
+	at ag.provideHover (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:1008:51286)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159870
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12046
+	at new Promise (<anonymous>)
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12018)
+	at l.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159850)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182545
+	at Ie._withAdapter (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:179343)
+	at Ie.$provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182521)
+	at u._doInvokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+	at u._invokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+	at u._receiveRequest (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11094)
+	at u._receiveOneMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:30083
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at t._receiveMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+	at Socket.w (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+	at Socket.emit (events.js:310:20)
+	at addChunk (_stream_readable.js:286:12)
+	at readableAddChunk (_stream_readable.js:268:9)
+	at Socket.Readable.push (_stream_readable.js:209:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-04 10:03:05.716] [renderer1] [error] [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github: Error: [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77471)
+	at _ (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77418)
+	at Object.getTokenInformationAtPosition (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:27453)
+	at Zs (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4755)
+	at du (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4901)
+	at Kf.provideHover (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:1008:36964)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159870
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12046
+	at new Promise (<anonymous>)
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12018)
+	at l.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159850)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182545
+	at Ie._withAdapter (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:179343)
+	at Ie.$provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182521)
+	at u._doInvokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+	at u._invokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+	at u._receiveRequest (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11094)
+	at u._receiveOneMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:30083
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at t._receiveMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+	at Socket.w (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+	at Socket.emit (events.js:310:20)
+	at addChunk (_stream_readable.js:286:12)
+	at readableAddChunk (_stream_readable.js:268:9)
+	at Socket.Readable.push (_stream_readable.js:209:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-04 10:03:06.085] [renderer1] [error] [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github: Error: [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77471)
+	at _ (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77418)
+	at Object.getTokenInformationAtPosition (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:27453)
+	at Zs (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4755)
+	at du (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4901)
+	at ag.provideHover (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:1008:51286)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159870
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12046
+	at new Promise (<anonymous>)
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12018)
+	at l.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159850)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182545
+	at Ie._withAdapter (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:179343)
+	at Ie.$provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182521)
+	at u._doInvokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+	at u._invokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+	at u._receiveRequest (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11094)
+	at u._receiveOneMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:30083
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at t._receiveMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+	at Socket.w (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+	at Socket.emit (events.js:310:20)
+	at addChunk (_stream_readable.js:286:12)
+	at readableAddChunk (_stream_readable.js:268:9)
+	at Socket.Readable.push (_stream_readable.js:209:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-05-04 10:03:06.087] [renderer1] [error] [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github: Error: [GitHub.vscode-pull-request-github]: Proposed API is only available when running out of dev or with the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77471)
+	at _ (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:77418)
+	at Object.getTokenInformationAtPosition (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:27453)
+	at Zs (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4755)
+	at du (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:965:4901)
+	at Kf.provideHover (/home/theorytoe/.vscode-oss/extensions/github.vscode-pull-request-github-0.25.1/dist/extension.js:1008:36964)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159870
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12046
+	at new Promise (<anonymous>)
+	at g (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:12018)
+	at l.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:159850)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182545
+	at Ie._withAdapter (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:179343)
+	at Ie.$provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:182521)
+	at u._doInvokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+	at u._invokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+	at u._receiveRequest (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11094)
+	at u._receiveOneMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:30083
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at t._receiveMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+	at Socket.w (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+	at Socket.emit (events.js:310:20)
+	at addChunk (_stream_readable.js:286:12)
+	at readableAddChunk (_stream_readable.js:268:9)
+	at Socket.Readable.push (_stream_readable.js:209:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

@@ -1,0 +1,5 @@
+Visual Studio Code GitHub Extension
+git symbolic-ref -q HEAD
+git --version
+Failed to connect to provider "Command failed with exit code 128: git symbolic-ref -q HEAD\nfatal: not a git repository (or any of the parent directories): .git"
+git branch

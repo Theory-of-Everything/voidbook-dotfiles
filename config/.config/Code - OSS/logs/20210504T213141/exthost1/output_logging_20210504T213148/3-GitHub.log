@@ -1,0 +1,55 @@
+Visual Studio Code GitHub Extension
+git symbolic-ref -q HEAD
+git --version
+git for-each-ref --format='%(upstream)' 'refs/heads/master'
+git config --local --get remote.origin.url
+git symbolic-ref -q HEAD
+git for-each-ref --format='%(upstream)' 'refs/heads/master'
+git config --local --get remote.origin.url
+GET https://api.github.com/user/repos 
+Connected with provider GitHub Client 
+git branch
+git symbolic-ref -q HEAD
+git for-each-ref --format='%(upstream)' 'refs/heads/master'
+git config --local --get remote.origin.url
+GET https://api.github.com/repos/Theory-of-Everything/voidbook-dotfiles 
+git branch
+git symbolic-ref -q HEAD
+git for-each-ref --format='%(upstream)' 'refs/heads/master'
+git config --local --get remote.origin.url
+git branch
+git symbolic-ref -q HEAD
+git for-each-ref --format='%(upstream)' 'refs/heads/master'
+git config --local --get remote.origin.url
+git branch
+git symbolic-ref -q HEAD
+git for-each-ref --format='%(upstream)' 'refs/heads/master'
+git config --local --get remote.origin.url
+git branch
+git symbolic-ref -q HEAD
+git for-each-ref --format='%(upstream)' 'refs/heads/master'
+git config --local --get remote.origin.url
+git branch
+git symbolic-ref -q HEAD
+git for-each-ref --format='%(upstream)' 'refs/heads/master'
+git config --local --get remote.origin.url
+git branch
+git symbolic-ref -q HEAD
+git for-each-ref --format='%(upstream)' 'refs/heads/master'
+git config --local --get remote.origin.url
+git branch
+git symbolic-ref -q HEAD
+git for-each-ref --format='%(upstream)' 'refs/heads/master'
+git config --local --get remote.origin.url
+git branch
+git symbolic-ref -q HEAD
+git for-each-ref --format='%(upstream)' 'refs/heads/master'
+git config --local --get remote.origin.url
+git branch
+git symbolic-ref -q HEAD
+git for-each-ref --format='%(upstream)' 'refs/heads/master'
+git config --local --get remote.origin.url
+git branch
+git symbolic-ref -q HEAD
+git for-each-ref --format='%(upstream)' 'refs/heads/master'
+git config --local --get remote.origin.url

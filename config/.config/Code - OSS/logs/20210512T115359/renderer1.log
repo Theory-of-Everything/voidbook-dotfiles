@@ -1,0 +1,25 @@
+[2021-05-12 11:54:20.630] [renderer1] [warning] Workbench did not finish loading in 10 seconds, that might be a problem that should be reported.
+[2021-05-12 11:54:20.898] [renderer1] [error] Cannot read property 'resource' of undefined: TypeError: Cannot read property 'resource' of undefined
+	at c.deserializeWebviewPanel (/usr/lib/code-oss/resources/app/extensions/markdown-language-features/dist/extension.js:1:107373)
+	at o.$deserializeWebviewPanel (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:65833)
+	at u._doInvokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12794)
+	at u._invokeHandler (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:12478)
+	at u._receiveRequest (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11145)
+	at u._receiveOneMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9931)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:8032
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:30083
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at E.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:15496)
+	at t._receiveMessage (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:20754)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:17640
+	at _.fire (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:57:1836)
+	at acceptChunk (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12861)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:65:12209
+	at Socket.w (/usr/lib/code-oss/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:105:13173)
+	at Socket.emit (events.js:310:20)
+	at addChunk (_stream_readable.js:286:12)
+	at readableAddChunk (_stream_readable.js:268:9)
+	at Socket.Readable.push (_stream_readable.js:209:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
