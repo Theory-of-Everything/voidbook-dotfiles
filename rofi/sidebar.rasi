@@ -15,8 +15,8 @@
     lightred:    #ce3c65;
     //
     // Green
-    green:       #aaf2aa;
-    lightgreen:  #68c768;
+    green:       #68c768;
+    lightgreen:  #aaf2aa;
     //
     // Yellow
     yellow:      #a0ee71;
@@ -35,8 +35,8 @@
     lightcyan:     #21a08b;
     //
     // White
-    white:      #d0d0d0;
-    lightwhite:     #f5f5f5;
+    white:      #e5e5e5;
+    lightwhite:     #f7f7f7;
     //
     // Bold, Italic, Underline
     highlight:     bold #ffffff;
@@ -93,7 +93,7 @@ element alternate urgent {
     text-color: @lightred;
 }
 element selected active {
-    background-color: @lightgreen;
+    background-color: @green;
     text-color: @dark;
 }
 element selected urgent {
