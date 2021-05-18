@@ -1,1 +1,0 @@
-[2021-05-04 18:24:56:642] [/home/theorytoe/Code/sire-py] Git Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 4,4:.gitignore • file .gitignore has only 3 lines • 17 ms 
